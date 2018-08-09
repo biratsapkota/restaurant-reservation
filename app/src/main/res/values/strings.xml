@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">restu</string>
+    <string name="app_name">Happy Meal</string>
+    <string name="password">........</string>
+
+    <string-array name="titles">
+        <item>item no.1</item>
+        <item>item no.2</item>
+        <item>item no.3</item>
+    </string-array>
+
+    <array name="icons">
+
+    </array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

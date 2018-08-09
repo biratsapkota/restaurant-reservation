@@ -13,13 +13,56 @@
     tools:context="com.example.birat.restu.MainActivity">
 
 
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/telephonelogo"
+        android:id="@+id/imageView4"
+        android:layout_alignBottom="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="1050dp"
+        app:srcCompat="@drawable/frontone"
+        android:id="@+id/imageView"
+        android:layout_marginTop="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
     <Button
-        android:text="Button"
+        android:text="Login"
+        style="@style/button_style"
+        android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="206dp"
         android:onClick="gotoLogin"
-        android:id="@+id/button3" />
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+
+        app:srcCompat="@drawable/rr"
+        android:id="@+id/imageView3"
+        android:layout_marginBottom="388dp"
+        android:layout_above="@+id/button3"
+        android:layout_toStartOf="@+id/button3" />
+
+    <TextView
+        android:text="9845596796"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="#020202"
+        android:layout_marginEnd="28dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignEnd="@+id/button3" />
+
+
 </RelativeLayout>

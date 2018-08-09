@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/dininghall"
+    android:layout_alignParentStart="true"
+    android:layout_marginStart="0dp"
+    android:layout_marginBottom="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_weight="0.34"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/button_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:onClick="gotoDishes"
+            android:text="Menu"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/button_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:layout_weight="0"
+            android:elevation="0dp"
+            android:onClick="gotoService"
+            android:text="Services"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:layout_weight="0.32"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/button_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:onClick="gotoTableBook"
+            android:text="Table Booking "
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/button_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="130dp"
+            android:text="Loyalty program"
+            android:onClick="gotoLoyalty"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/button_style"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Refer and Earn"
+        android:onClick="gotoReferAndEarn"
+        android:textAllCaps="false" />
 
 </LinearLayout>
+

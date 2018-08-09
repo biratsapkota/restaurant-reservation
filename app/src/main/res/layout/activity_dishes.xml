@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.birat.restu.DishesActivity"
+    android:id="@+id/activity_dishes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.02"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.02"
+            android:fontFamily="casual"
+            android:text="DISHES ITEMS"
+            android:textSize="40dp" />
+
+        <!-- 1st linearlayout-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/blacktea"
+                    />
+
+                <TextView
+                    android:id="@+id/teeextView11"
+                    android:layout_width="180dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="19dp"
+                    android:text="Black Tea-Rs.20" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.05"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/lemontea" />
+
+                <TextView
+                    android:id="@+id/textVggiew11"
+                    android:layout_width="180dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:textSize="19dp"
+                    android:text="Lemon Tea-Rs.25" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+         2nd linearlayout
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageVgfdiew5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/coldlemon"
+                    />
+
+                <TextView
+                    android:id="@+id/textView7711"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="19dp"
+                    android:textColor="#ffffff"
+                    android:text="Cold Lemon-Rs.20" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.05"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageV2iew2"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/hotlemon" />
+
+                <TextView
+                    android:id="@+id/te4xtView11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:textSize="19dp"
+                    android:textColor="#ffffff"
+                    android:text="Hot Lemon-Rs.25" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- 3rd linearlayout-->
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageVi5ew5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/milk"
+                    />
+
+                <TextView
+                    android:id="@+id/textView311"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="19dp"
+                    android:textColor="#ffffff"
+                    android:text="Milk-Rs.30" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.05"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageVie227w2"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/milktea" />
+
+                <TextView
+                    android:id="@+id/textView4311"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:textSize="19dp"
+                    android:textColor="#ffffff"
+                    android:text="Milk Tea-Rs.30" />
+
+            </LinearLayout>
+
+        </LinearLayout>-->
+        4th linearlayout
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView5565"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/specialmilktea"
+                    />
+
+                <TextView
+                    android:id="@+id/textV78iew11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="19dp"
+                    android:textColor="#ffffff"
+                    android:text="Sp. Milk Tea-Rs.30" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.05"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageVi45ew2"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/blackcofee" />
+
+                <TextView
+                    android:id="@+id/textVie223w11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="1dp"
+                    android:textSize="19dp"
+                    android:textColor="#ffffff"
+                    android:text="Black Cofee-Rs.40" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash;5th linear layout &ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/image68View5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/milkcofee"
+                    />
+
+                <TextView
+                    android:id="@+id/textV66iew11"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="19dp"
+                    android:text="Milk Cofee-Rs.30" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:textSize="30dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:text="Momo Item" />
+
+            </LinearLayout>
+
+        </LinearLayout>-->
+
+        <!--6th linearlayout-->
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/image22View5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/vegsteammomo"
+                    />
+
+                <TextView
+                    android:id="@+id/textVi45ew11"
+                    android:layout_width="180dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Veg. Steam Momo-Rs.70" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.05"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imag45eView2"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/vegfrymomo" />
+
+                <TextView
+                    android:id="@+id/textV43iew11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Veg. Fry Momo-Rs.80" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash;7th linearlayout&ndash;&gt;
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageCmomo"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/vegcmomo"
+                    />
+
+                <TextView
+                    android:id="@+id/textCmomo"
+                    android:textColor="#ffffff"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Veg. C Momo-Rs.100" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imagechiste5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/chistemmomo"
+                    />
+
+                <TextView
+                    android:id="@+id/textchi"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Chi.Steam Momo-Rs.100" />
+
+            </LinearLayout>
+
+        </LinearLayout>-->
+
+        <!--8th linearlayout-->
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imagechifry5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/chifrymomo"
+                    />
+
+                <TextView
+                    android:id="@+id/textFrymomo11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Chi.Fry Momo-Rs.120" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageChicken"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/chickenc_momo"
+                    />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Chi.C Momo-Rs.140" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash;9th linearlayout&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/ima3geView5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/vegchowmin"
+                    />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Veg Chowmein-Rs.70" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/chickenchowmein"
+                    />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:text="Chi.Chowmein-Rs.120" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; 10th layout&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/eggchowmein"
+                    />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Egg Chowmein-Rs.110" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView74"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/paneerchowmein"
+                    />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:text="Paneer Chowmein-Rs.130" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; 11th layout&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView52"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/vegburger"
+                    />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Veg Burger-Rs.80" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView56"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/chiburger"
+                    />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="17dp"
+                    android:textColor="#ffffff"
+                    android:textSize="15dp"
+                    android:text="Chicken Burger-Rs.130" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; 12th layout&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView50"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/hamburger"
+                    />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="180dp"
+                    android:textColor="#ffffff"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="ham burger-Rs.100" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView45"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/chitikkaburger"
+                    />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Chicken Tikka Burger-Rs.140" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; 13th layout&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView98"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/veggiepizza"
+                    />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:textColor="#ffffff"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Veggie Pizza-Rs.180" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView225"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/chipizza"
+                    />
+
+                <TextView
+                    android:id="@+id/textVi11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Chicken Pizza-Rs.250" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash; 14thh layout&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imaeView5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="1dp"
+                    app:srcCompat="@drawable/mushroompizza"
+                    />
+
+                <TextView
+                    android:id="@+id/tetView11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Mushroom Pizza-Rs.200" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/ageView5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    app:srcCompat="@drawable/cheesepizza"
+                    />
+
+                <TextView
+                    android:id="@+id/texiew11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Cheese Pizza-Rs.220" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash;15th&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imew5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-3dp"
+                    app:srcCompat="@drawable/fanta"
+                    />
+
+                <TextView
+                    android:id="@+id/ew11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Fanta-Rs.40" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/igmageView5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/pepsi"
+                    />
+
+                <TextView
+                    android:id="@+id/tegxtView11"
+                    android:textColor="#ffffff"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:text="Pepsi-Rs.40" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        &lt;!&ndash;16th&ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imrgeView5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-3dp"
+                    app:srcCompat="@drawable/cocacola"
+                    />
+
+                <TextView
+                    android:id = "@+id/textVifew11"
+                    android:textColor="#ffffff"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="15dp"
+                    android:text="Coca Cola-Rs.40" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.08"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageVie3w5"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/sprite"
+                    />
+
+                <TextView
+                    android:id="@+id/textVi2ew11"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="17dp"
+                    android:textSize="15dp"
+                    android:text="Sprite-Rs.40" />
+
+            </LinearLayout>
+
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.birat.restu.LoyaltyActivity"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/loyalty"
+        android:layout_width="179dp"
+        android:layout_height="154dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="110dp" />
+</android.support.constraint.ConstraintLayout>

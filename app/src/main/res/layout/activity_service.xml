@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.birat.restu.ServiceActivity">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.02">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:text="WELCOME TO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_weight="0.02"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rr"
+            android:id="@+id/imageView3"
+            android:layout_weight="0.04" />
+
+        <TextView
+            android:text="SERIOUSLY SIMPLE FOOD"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18"
+            android:textSize="20dp"
+            android:textColor="#fff9e1"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginStart="50dp"
+            android:paddingStart="20dp"
+            android:layout_weight="0.00" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/garden"
+            android:id="@+id/imageView5" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fffbdc"
+            android:weightSum="1">
+
+            <TextView
+                android:text=" Open Terrace and Garden"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView19"
+                android:textColor="#332e2e"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingTop="5dp"/>
+
+            <TextView
+                android:text="Our open terrace and garden gives you the mesmorizing view of beauty around nature. If you are a nature lover then you have come to the right place."
+                android:layout_width="137dp"
+                android:layout_height="143dp"
+                android:id="@+id/textView20"
+                android:textColor="#332e2e"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="161dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/garden01"
+                android:id="@+id/imageView2" />
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/conferenceh" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fffbdc"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="164dp"
+                app:srcCompat="@drawable/conference02"
+                android:id="@+id/imageView6"
+                android:layout_weight="0.42"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:text="Simple is the name of the game, and we're good at finding it in all the right places, even in our conference experience."
+                android:layout_width="77dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView21"
+                android:layout_weight="0.64"
+                android:textColor="#332e2e"
+                android:textStyle="italic"
+                android:paddingTop="20dp"/>
+
+            <TextView
+                android:text="Conference Room"
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView22"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#332e2e"
+                android:paddingTop="100dp"
+                android:paddingRight="5dp"/>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/bar"
+            android:id="@+id/imageView8" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="97dp"
+            android:orientation="horizontal"
+            android:background="#fffbdc"
+            android:weightSum="1">
+
+
+            <TextView
+                android:text="Bar and Fine Dining"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:id="@+id/textView25"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#332e2e" />
+
+            <TextView
+                android:text="Here at Kaligandaki we're all about the love of drinks. New and bold flavors enter our doors every week, and we can't help but show them off."
+                android:layout_width="172dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView26"
+                android:textColor="#332e2e"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dining"
+                android:id="@+id/imageView9" />
+
+        </LinearLayout>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            app:srcCompat="@drawable/bakery2"
+            android:id="@+id/imageView13"
+            android:layout_weight="0.50" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="97dp"
+            android:orientation="horizontal"
+            android:background="#fffbdc"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/coffee"
+                android:id="@+id/imageView14"
+                android:layout_weight="1" />
+
+            <TextView
+                android:text="We love the smell of fresh baked bread. Each loaf is handmade at the crack of dawn, using only the simplest of ingredients to bring out smell and flavours that beckon the whole block."
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView27"
+                android:textColor="#332e2e"
+                android:textStyle="italic"
+                android:paddingStart="5dp"/>
+
+            <TextView
+                android:text="Coffee and Bakery Hub"
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView28"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#332e2e"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text="COME IN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:layout_weight="1.75"
+            android:textStyle="bold"
+            android:textColor="#f6f7f5"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:text="Stop by anytime and experience simplicity at its finest !"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView30"
+            android:layout_weight="0.02"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:paddingTop="5dp"/>
+        <TextView
+            android:text="OR CALL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#f6f7f5"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:id="@+id/textView31"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:text="9803741695"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32"
+            android:layout_weight="0.02"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:paddingTop="5dp"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+</RelativeLayout>
